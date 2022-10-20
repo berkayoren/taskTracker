@@ -23,7 +23,7 @@ const Home = () => {
     getTask();
   }, []);
   return (
-    <div>
+    <div className="mt-4 d-flex justify-content-center flex-column">
       <Button
         onClick={() => {
           toggle();
